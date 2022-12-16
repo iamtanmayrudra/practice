@@ -1,10 +1,10 @@
 import './App.css';
-import About from "./myComponents/About"
+import BackgroundChange from "./myComponents/BackgroundChange"
 
 function App() {
   return (
     <>
-      <About />
+      <BackgroundChange />
     </>
   );
 }
