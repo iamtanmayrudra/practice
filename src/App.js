@@ -1,12 +1,15 @@
-import './App.css';
-import BackgroundChange from "./myComponents/BackgroundChange"
+import ReactDOM from "react-dom/client";
+// import Header from "./myComponents/Header";
+import DarkMode from "./pages/DarkMode"
 
-function App() {
+export default function App() {
   return (
     <>
-      <BackgroundChange />
+      {/* <Header/> */}
+      <DarkMode/>
     </>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
