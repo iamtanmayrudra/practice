@@ -1,12 +1,10 @@
 import ReactDOM from "react-dom/client";
-// import Header from "./myComponents/Header";
-import DarkMode from "./pages/DarkMode"
+import Form from "./myComponents/Form";
 
-export default function App() {
+export default function App(props) {
   return (
     <>
-      {/* <Header/> */}
-      <DarkMode/>
+      <Form heading={"Make the Form"}/>
     </>
   );
 }
