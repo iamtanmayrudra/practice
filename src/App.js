@@ -1,10 +1,15 @@
 import ReactDOM from "react-dom/client";
-import Form from "./myComponents/Form";
+// import Form from "./myComponents/Form";
+import Alert from "./myComponents/Alert";
 
-export default function App(props) {
+// Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+
+export default function App() {
   return (
     <>
-      <Form heading={"Make the Form"}/>
+      {/* <Form heading={"Make the Form"}/> */}
+      <Alert/>
     </>
   );
 }
