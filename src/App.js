@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom/client";
 // import Header from "./myComponents/Header";
-import DarkMode from "./pages/DarkMode"
+import Calculator from "./pages/Calculator";
 
 export default function App() {
   return (
     <>
       {/* <Header/> */}
-      <DarkMode/>
+      <Calculator />
     </>
   );
 }
