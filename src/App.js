@@ -1,15 +1,11 @@
-import ReactDOM from "react-dom/client";
-// import Header from "./myComponents/Header";
-import DarkMode from "./pages/DarkMode"
+import React from 'react'
+
+import Hooks from "./myComponents/PracticeHooks"
 
 export default function App() {
   return (
-    <>
-      {/* <Header/> */}
-      <DarkMode/>
-    </>
-  );
+    <div>
+      <Hooks/>
+    </div>
+  )
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
