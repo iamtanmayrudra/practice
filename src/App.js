@@ -1,15 +1,14 @@
-import ReactDOM from "react-dom/client";
-// import Header from "./myComponents/Header";
-import Calculator from "./pages/Calculator";
+import React from 'react'
 
-export default function App() {
+import TextEnhance from "./myComponents/TextEnhance";
+import EnableMode from "./myComponents/EnableMode";
+
+
+function App() {
   return (
-    <>
-      {/* <Header/> */}
-      <Calculator />
-    </>
+    <TextEnhance />,
+    <EnableMode />
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+export default App
