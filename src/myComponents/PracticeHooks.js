@@ -1,18 +1,16 @@
 import React, {useState} from 'react';
 
 export default function Hooks() {
-  const [color, setcolor] = useState();
-  setcolor("Default Color");
-
-  const colorHandler = ()=> {
-    console.log("Clicked");
-  }
+  const[ clicks, setClickes]= useState(" Make it akso")
+  const clicker = () =>{
+    console.log("clicked");
+  } 
 
   return (
     <>
-      <input value={color} /><br/>
-      <button onClick={colorHandler}>Go</button>
-      <p>qsdvf,gmkbjj</p>
+      <p>make in {clicker}</p>
+      <button onClick={u}>Click</button>
     </>
+
   )
 }
