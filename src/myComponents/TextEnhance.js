@@ -35,6 +35,12 @@ function Hooks() {
     setAdd(event.target.value);
   };
 
+  
+  const selectTextCopy = () => {
+    console.log("Copied");
+    // let a = 5o
+  };
+
   return (
     <div className="hooksArea" style={{ padding: "15px" }}>
       <p> All the very</p>
@@ -43,8 +49,8 @@ function Hooks() {
       <button onClick={handleUpClick}>To Uppercase</button>
       <button onClick={handleLoClick}>To Lowercase</button>
       <button onClick={handleClear}>Clear</button>
+      <button onClick={selectTextCopy}>Copy Text</button>
       <button onClick={handleSelect}>{btnSelect}</button>
-
 
       <p>
         {add.length} of charcter and {add}
