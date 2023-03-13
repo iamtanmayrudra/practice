@@ -8,7 +8,7 @@ function EnableMode() {
     })
 
     const modeDark = () => {
-      if (darkStyle.backgroundColor == "blue") {
+      if (darkStyle.backgroundColor === "blue") {
         setdarkStyle({
           backgroundColor: "#222",
           color: "white",
@@ -22,7 +22,7 @@ function EnableMode() {
     };
 
     const modeRed = ()=>{
-        if(darkStyle.backgroundColor == 'white'){
+        if(darkStyle.backgroundColor === 'white'){
             setdarkStyle({
               backgroundColor: "red",
               color: "white",
@@ -36,7 +36,7 @@ function EnableMode() {
     }
 
     const modeGreen = ()=>{
-        if(darkStyle.backgroundColor == 'red'){
+        if(darkStyle.backgroundColor === 'red'){
             setdarkStyle({
               backgroundColor: "green",
               color: "white",
@@ -50,7 +50,7 @@ function EnableMode() {
     }
 
     const modeBlue = ()=>{
-        if(darkStyle.backgroundColor == 'green'){
+        if(darkStyle.backgroundColor === 'green'){
             setdarkStyle({
               backgroundColor: "blue",
               color: "white",
@@ -62,6 +62,7 @@ function EnableMode() {
             });
         }
     }
+
 
   return (
     <>
