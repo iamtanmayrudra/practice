@@ -2,19 +2,18 @@ import React, {useState} from 'react'
 
 function Revised() {
 
-const [select, setSelect] = useState("Type here");
+const [selector, setSelector] = useState("Type here");
 const handleClicker = ()=>{
-  let wording = document.getElementById("textBox")
-  setSelect.select();
+  setSelector();
 }
 
 const textChangehandler = (event)=>{
-  setSelect(event.target.value)
+  setSelector(event.target.value);
 }
 
   return (
     <div>
-      <textarea value={select} onChange={textChangehandler} cols="30" rows="10" id='textBox'></textarea>
+      <textarea value={selector} onChange={textChangehandler} cols="30" rows="10" id='textReviseBox'></textarea>
       <button onClick={handleClicker}>Convert</button>
     </div>
   )
