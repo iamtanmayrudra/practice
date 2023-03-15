@@ -43,6 +43,7 @@ function Hooks() {
 
   return (
     <div className="hooksArea" style={{ padding: "15px" }}>
+      <p>Alert</p>
       <p> All the very</p>
       <textarea value={add} onChange={handleOnChange} id="textBox" style={{ width: "100%", height: "100px" }} />
       <br></br>
