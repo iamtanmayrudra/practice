@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function Revised() {
+function Revised(props) {
 
 const [selector, setSelector] = useState("Type here");
 const handleClicker = ()=>{
